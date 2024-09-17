@@ -1,0 +1,120 @@
+.single-planet-page {
+    padding: 2rem;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to left, #1A0C22, #0D164B);
+}
+
+.planet-field {
+    border: 10px solid white;
+    padding: 1.5rem;
+
+    max-width: 900px;
+    margin: 0 auto;
+    color: white;
+}
+
+.planet-title {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4rem;
+    margin-left: 2rem;
+    padding: 0 1rem;
+}
+
+.planet-upper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.planet-upper-left,
+.planet-upper-right {
+    grid-column: auto / span 1;
+}
+
+.planet-upper-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.planet-heading {
+    font-size: 2.4rem;
+}
+
+.planet-text,
+.planet-list, 
+.planet-desc {
+    font-family: 'Exo 2', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.planet-text span {
+    font-weight: 700;
+}
+
+.planet-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+}
+
+.planet-desc {
+    margin-top: 1.5rem;
+    border-top: 3px solid white;
+    padding: 1rem 0;
+}
+
+@media screen and (max-width: 900px) {
+    .planet-upper-left,
+    .planet-upper-right {
+        grid-column: auto / span 2;
+    }
+
+    .planet-upper-left {
+        margin-bottom: 1rem;
+    }
+}
+
+
+
+.gradient-solen {
+    background: linear-gradient(to right, #FFA500, #FFD029);
+}
+
+.gradient-merkurius {
+    background: linear-gradient(to right, #4A4844, #8C8B85);
+}
+
+.gradient-venus {
+    background: linear-gradient(to right, #D67C7A, #E7CCCB);
+}
+
+.gradient-jorden {
+    background: linear-gradient(to right, #004CB2, #418ED5);
+}
+
+.gradient-mars {
+    background: linear-gradient(to right, #B32424, #EF5F5F);
+}
+
+.gradient-jupiter {
+    background: linear-gradient(to right, #CE6721, #E29468);
+}
+
+.gradient-saturnus {
+    background: linear-gradient(to right, #A5894F, #C7AA72);
+}
+
+.gradient-uranus {
+    background: linear-gradient(to right, #92A7D1, #C9D4F1);
+}
+
+.gradient-neptunus {
+    background: linear-gradient(to right, #546E7E, #7A91A7);
+}
